@@ -28,8 +28,8 @@
     </head>
     <body class="mb-48">
         <nav class="flex justify-between items-center mb-4">
-            <a href="../public/images/logo.png"
-                ><img class="w-24" src="../public/images/logo.png" alt="logo" class="logo"
+            <a href="../public/images/logo1.png"
+                ><img class="w-24" src="{{asset('../public/images/logo1.png')}}" alt="logo" class="logo"
             /></a>
             <ul class="flex space-x-6 mr-6 text-lg">
                 <li>
