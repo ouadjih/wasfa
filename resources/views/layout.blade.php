@@ -28,17 +28,17 @@
     </head>
     <body class="mb-48">
         <nav class="flex justify-between items-center mb-4">
-            <a href="../public/images/logo1.png"
+            <a href="../"
                 ><img class="w-24" src="{{asset('../public/images/logo1.png')}}" alt="logo" class="logo"
             /></a>
             <ul class="flex space-x-6 mr-6 text-lg">
                 <li>
-                    <a href="register.html" class="hover:text-laravel"
+                    <a href="register.html" class="hover:text-[#336666]"
                         ><i class="fa-solid fa-user-plus"></i> Register</a
                     >
                 </li>
                 <li>
-                    <a href="login.html" class="hover:text-laravel"
+                    <a href="login.html" class="hover:text-[#336666]"
                         ><i class="fa-solid fa-arrow-right-to-bracket"></i>
                         Login</a
                     >

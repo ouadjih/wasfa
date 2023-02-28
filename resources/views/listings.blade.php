@@ -1,6 +1,9 @@
 @extends('layout')
 
 @section('content')
+@include('partials._hero')
+@include('partials._search')
+
 <div
 class="lg:grid lg:grid-cols-2 gap-4 space-y-4 md:space-y-0 mx-4">
 @if(count($listings) == 0)
@@ -20,7 +23,6 @@ class="lg:grid lg:grid-cols-2 gap-4 space-y-4 md:space-y-0 mx-4">
             </h3>
             <div class="text-xl font-bold mb-4"> {{$listing->company}}</div>
             <ul class="flex">
-
                 <li
                     class="flex items-center justify-center bg-[#336666] text-white rounded-xl py-1 px-3 mr-2 text-xs"
                 >
